@@ -1,4 +1,4 @@
-import {afterAll, afterEach, beforeAll, beforeEach, describe, expect, test} from "vitest";
+import {afterAll, beforeAll, describe, expect, test} from "vitest";
 import CarList from "./components/CarList.tsx";
 import {render, screen, waitFor} from "@testing-library/react";
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
